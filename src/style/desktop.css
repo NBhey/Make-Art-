@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('/src/cursor/cursor.png'), default;
+}
+
+a {
+    color: white;
+    text-decoration: none; /* no underline */
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+  }
+
+a > span {
+    cursor: pointer;
+}
+
+body {
+    background-color: #F5F5F5;
+    
+}
+
+.header__contact-wrap {
+    margin: 0 auto;
+    background-color: #18154B;
+    padding: 10px 0 10px;
+}
+
+.header__contact {
+    margin: 0 auto;
+    max-width: 1180px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.1px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__contact-link {
+    display: flex;
+    gap: 46px;
+    align-items: center;
+}
+
+.header__contact-social {
+    display: flex;
+    gap: 18px;
+}
+
+.header__contact-social > a > img:hover {
+    cursor: pointer;
+}
+
+.header__navigation-wrap {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 15px 0 ;
+}
+
+.header__navigation {
+    margin: 0 auto;
+    max-width: 1180px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navigation-list {
+    display: flex;
+    gap: 43px;
+
+    list-style-type: none;
+}
+
+.header__navigation-item {
+    color: #303239;
+}
+
+.header__navigation-btn {
+    border: none;
+
+    width: 160px;
+    height: 40px;
+
+    border-radius: 50px;
+    background-image: linear-gradient(0.25turn, #0D748B,#1A0B73);
+
+    color: #ffffff;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    line-height: 17.73px;
+}
+
+.header__navigation-icons {
+    margin-left: 37px;
+
+    list-style-type: none;
+
+    display: flex;
+}
+
+.navigation-icons__item {
+    position: relative;
+
+    width: 40px;
+    height: 40px;
+    background-color: #F0F5FB;
+    border-radius: 30px;
+}
+
+.navigation-icons__item > a > img {
+    position: absolute;
+   
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.marketing {
+    margin: 0 auto;
+    padding: 40px 0 90px;
+    max-width: 1180px;
+
+    display: flex;
+    border-radius: 10px;
+}
+
+.marketing__equipment {
+    width: 780px;
+    height: 440px;
+    background: url('/src/image/image.png') no-repeat,
+                linear-gradient(0.25turn, #0D748B,#1A0B73);
+    border-radius: 10px;
+}
